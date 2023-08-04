@@ -1,7 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-function Login() {
+function Register() {
   return (
     <div className="Login">
       <div className="center">
@@ -17,21 +17,18 @@ function Login() {
               <h1>Welcome back</h1>
               <p>Please enter your details</p>
 
+              <label>Name</label>
+
+              <input className="input" type="text" placeholder="Enter your name" />
               <label>Email</label>
 
               <input className="input" type="email" placeholder="Enter your email" />
               <label>Password</label>
               <input className="input" type="password" placeholder="Enter your password" />
-              <div className="add">
-              <div className="rem">
-              <input type="checkbox"/>
-              <p>Remember for 30 days</p>
-              </div>
-              <a href="/">Forgot password</a>
-              </div>
-              <button>Sign in</button>
+              
+              <button>Sign up</button>
               <div className="sign">
-                <p>Don't have an account? <Link to="/Register">Sign up</Link></p>
+                <p>Already have an account? <Link  to="/">Sign in</Link></p>
               </div>
             </div>
           </div>
@@ -39,7 +36,7 @@ function Login() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Login;
+export default Register
