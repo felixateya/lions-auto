@@ -12,6 +12,7 @@ body{
   justify-content: center;
   align-items: center;
   background-color: #bac6ba;
+  transition: 0.5s ease-in-out;
 }
 
 .center{
@@ -124,6 +125,14 @@ width:60%
   border: none;
   margin: 20px 0;
   font-weight: 600;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  border: 2px solid #447e40;
+}
+
+.form button:hover{
+  background-color: #fff;
+  color: #447e40;
 }
 .sign a{
   color:green;
