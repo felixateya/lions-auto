@@ -14,7 +14,7 @@ function Register() {
           <div className="left">
             <h2>Lions auto</h2>
             <div className="form">
-              <h1>Welcome back</h1>
+              <h1>Welcome</h1>
               <p>Please enter your details</p>
 
               <label>Name</label>
@@ -32,7 +32,7 @@ function Register() {
               </div>
             </div>
           </div>
-          <div className="right"></div>
+          <div className="right2"></div>
         </div>
       </div>
     </div>
