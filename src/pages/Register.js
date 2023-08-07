@@ -9,7 +9,7 @@ function Register() {
             {/* <h2>Lions auto</h2> */}
             <img src={logo} alt="" />
             <div className="form">
-              <h1>Welcome back</h1>
+              <h1>Welcome</h1>
               <p>Please enter your details</p>
 
               <label>Name</label>

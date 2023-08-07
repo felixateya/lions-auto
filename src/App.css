@@ -126,7 +126,7 @@ width:60%
 @media(max-width:1024px){
   .info{
     width: 70%;
-    height: 70%;
+    height: 78%;
     & img{
       width: 180px;
       margin-left: 2px;
@@ -143,6 +143,11 @@ width:60%
   }
 }
 @media(max-width:600px){
+  .info{
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+  }
   .info img{
     width: 50%;
   }
@@ -150,6 +155,6 @@ width:60%
 
 @media(max-width:280px){
   .info{
-    width: 90%;
+    width: 100%;
   }
 }
